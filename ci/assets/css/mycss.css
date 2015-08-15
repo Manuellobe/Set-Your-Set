@@ -1,0 +1,12 @@
+.dmgCalcForm {
+	border: 1px solid black;
+	background: rgba(255, 255, 255, 0.5);
+}
+
+.dmgCalcForm > div{
+	background: rgba(200, 54, 54, 0.5);
+}
+
+.copyright{
+	padding-right: 10px;
+}
