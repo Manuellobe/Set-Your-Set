@@ -1,0 +1,251 @@
+[Fri Aug 14 05:14:39 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/favicon.ico, referer: http://setyourset.es/
+[Fri Aug 14 12:41:41 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/yoksetioxd
+[Fri Aug 14 12:41:48 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/yoksetioxd
+[Fri Aug 14 12:49:56 2015] [error] [client 95.18.43.88] PHP Parse error:  syntax error, unexpected T_VARIABLE in /var/www/html/ci/setyourset/controllers/Welcome.php on line 24
+[Fri Aug 14 12:51:03 2015] [error] [client 95.18.43.88] PHP Parse error:  syntax error, unexpected T_VARIABLE in /var/www/html/ci/setyourset/controllers/Welcome.php on line 24
+[Fri Aug 14 12:51:04 2015] [error] [client 95.18.43.88] PHP Parse error:  syntax error, unexpected T_VARIABLE in /var/www/html/ci/setyourset/controllers/Welcome.php on line 24
+[Fri Aug 14 12:51:26 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/css, referer: http://www.setyourset.es/
+[Fri Aug 14 12:51:26 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/css, referer: http://www.setyourset.es/
+[Fri Aug 14 12:51:26 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/font-awesome, referer: http://www.setyourset.es/
+[Fri Aug 14 12:51:26 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/js, referer: http://www.setyourset.es/
+[Fri Aug 14 12:51:26 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/js, referer: http://www.setyourset.es/
+[Fri Aug 14 12:52:18 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/css, referer: http://setyourset.es/
+[Fri Aug 14 12:52:18 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/css, referer: http://setyourset.es/
+[Fri Aug 14 12:52:18 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/font-awesome, referer: http://setyourset.es/
+[Fri Aug 14 12:52:18 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/js, referer: http://setyourset.es/
+[Fri Aug 14 12:52:18 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/js, referer: http://setyourset.es/
+[Fri Aug 14 12:52:37 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/css, referer: http://www.setyourset.es/
+[Fri Aug 14 12:52:37 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/css, referer: http://www.setyourset.es/
+[Fri Aug 14 12:52:37 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/font-awesome, referer: http://www.setyourset.es/
+[Fri Aug 14 12:52:37 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/js, referer: http://www.setyourset.es/
+[Fri Aug 14 12:52:37 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/js, referer: http://www.setyourset.es/
+[Fri Aug 14 12:58:35 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/css, referer: http://setyourset.es/
+[Fri Aug 14 12:58:35 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/font-awesome, referer: http://setyourset.es/
+[Fri Aug 14 12:58:35 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/css, referer: http://setyourset.es/
+[Fri Aug 14 12:58:35 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/js, referer: http://setyourset.es/
+[Fri Aug 14 12:58:35 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/js, referer: http://setyourset.es/
+[Fri Aug 14 13:06:26 2015] [error] [client 217.217.140.178] script '/var/www/html/ci/about.php' not found or unable to stat, referer: http://setyourset.es/index.php
+[Fri Aug 14 13:09:04 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/img, referer: http://setyourset.es/index.php
+[Fri Aug 14 13:09:04 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/img, referer: http://setyourset.es/index.php
+[Fri Aug 14 13:09:04 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/img, referer: http://setyourset.es/index.php
+[Fri Aug 14 13:09:04 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/img, referer: http://setyourset.es/index.php
+[Fri Aug 14 13:09:04 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/img, referer: http://setyourset.es/index.php
+[Fri Aug 14 13:09:04 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/img, referer: http://setyourset.es/index.php
+[Fri Aug 14 13:09:07 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/img, referer: http://setyourset.es/index.php
+[Fri Aug 14 13:09:07 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/img, referer: http://setyourset.es/index.php
+[Fri Aug 14 13:09:07 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/img, referer: http://setyourset.es/index.php
+[Fri Aug 14 13:09:07 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/img, referer: http://setyourset.es/index.php
+[Fri Aug 14 13:09:07 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/img, referer: http://setyourset.es/index.php
+[Fri Aug 14 13:09:07 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/img, referer: http://setyourset.es/index.php
+[Fri Aug 14 13:10:06 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/img, referer: http://www.setyourset.es/
+[Fri Aug 14 13:10:06 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/img, referer: http://www.setyourset.es/
+[Fri Aug 14 13:10:06 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/img, referer: http://www.setyourset.es/
+[Fri Aug 14 13:10:06 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/img, referer: http://www.setyourset.es/
+[Fri Aug 14 13:10:06 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/img, referer: http://www.setyourset.es/
+[Fri Aug 14 13:10:06 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/img, referer: http://www.setyourset.es/
+[Fri Aug 14 13:16:11 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/img, referer: http://setyourset.es/index.php
+[Fri Aug 14 13:16:11 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/img, referer: http://setyourset.es/index.php
+[Fri Aug 14 13:16:11 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/img, referer: http://setyourset.es/index.php
+[Fri Aug 14 13:16:11 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/img, referer: http://setyourset.es/index.php
+[Fri Aug 14 13:19:40 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/about.html, referer: http://setyourset.es/index.php
+[Fri Aug 14 13:25:44 2015] [error] [client 217.217.140.178] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /var/www/html/ci/setyourset/views/index.php on line 75, referer: http://setyourset.es/index.php
+[Fri Aug 14 13:26:59 2015] [error] [client 95.18.43.88] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /var/www/html/ci/setyourset/views/index.php on line 75
+[Fri Aug 14 13:28:15 2015] [error] [client 217.217.140.178] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /var/www/html/ci/setyourset/views/index.php on line 75, referer: http://setyourset.es/index.php
+[Fri Aug 14 13:29:22 2015] [error] [client 217.217.140.178] PHP Fatal error:  Call to undefined function base_url() in /var/www/html/ci/setyourset/views/index.php on line 75, referer: http://setyourset.es/index.php
+[Fri Aug 14 13:29:28 2015] [error] [client 95.18.43.88] PHP Fatal error:  Call to undefined function base_url() in /var/www/html/ci/setyourset/views/index.php on line 75
+[Fri Aug 14 13:29:31 2015] [error] [client 217.217.140.178] PHP Fatal error:  Call to undefined function base_url() in /var/www/html/ci/setyourset/views/index.php on line 75, referer: http://setyourset.es/index.php
+[Fri Aug 14 13:31:15 2015] [error] [client 217.217.140.178] PHP Fatal error:  Call to undefined function base_url() in /var/www/html/ci/setyourset/views/index.php on line 75, referer: http://setyourset.es/index.php
+[Fri Aug 14 13:31:16 2015] [error] [client 217.217.140.178] PHP Fatal error:  Call to undefined function base_url() in /var/www/html/ci/setyourset/views/index.php on line 75, referer: http://setyourset.es/index.php
+[Fri Aug 14 13:31:16 2015] [error] [client 217.217.140.178] PHP Fatal error:  Call to undefined function base_url() in /var/www/html/ci/setyourset/views/index.php on line 75, referer: http://setyourset.es/index.php
+[Fri Aug 14 13:31:16 2015] [error] [client 217.217.140.178] PHP Fatal error:  Call to undefined function base_url() in /var/www/html/ci/setyourset/views/index.php on line 75, referer: http://setyourset.es/index.php
+[Fri Aug 14 13:31:16 2015] [error] [client 217.217.140.178] PHP Fatal error:  Call to undefined function base_url() in /var/www/html/ci/setyourset/views/index.php on line 75, referer: http://setyourset.es/index.php
+[Fri Aug 14 13:31:17 2015] [error] [client 217.217.140.178] PHP Fatal error:  Call to undefined function base_url() in /var/www/html/ci/setyourset/views/index.php on line 75, referer: http://setyourset.es/index.php
+[Fri Aug 14 13:32:38 2015] [error] [client 217.217.140.178] PHP Fatal error:  Call to undefined function base_url() in /var/www/html/ci/setyourset/views/index.php on line 75, referer: http://setyourset.es/index.php
+[Fri Aug 14 13:33:44 2015] [error] [client 95.18.43.88] PHP Fatal error:  Call to undefined function mysqli_init() in /var/www/html/ci/system/database/drivers/mysqli/mysqli_driver.php on line 126
+[Fri Aug 14 13:33:51 2015] [error] [client 217.217.140.178] PHP Fatal error:  Call to undefined function mysqli_init() in /var/www/html/ci/system/database/drivers/mysqli/mysqli_driver.php on line 126, referer: http://setyourset.es/index.php
+[Fri Aug 14 13:34:20 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/img, referer: http://www.setyourset.es/
+[Fri Aug 14 13:34:20 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/img, referer: http://www.setyourset.es/
+[Fri Aug 14 13:34:20 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/img, referer: http://www.setyourset.es/
+[Fri Aug 14 13:34:28 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/img, referer: http://setyourset.es/index.php
+[Fri Aug 14 13:34:28 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/img, referer: http://setyourset.es/index.php
+[Fri Aug 14 13:34:28 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/img, referer: http://setyourset.es/index.php
+[Fri Aug 14 13:34:50 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/img, referer: http://setyourset.es/index.php
+[Fri Aug 14 13:34:50 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/img, referer: http://setyourset.es/index.php
+[Fri Aug 14 13:34:50 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/img, referer: http://setyourset.es/index.php
+[Fri Aug 14 13:39:36 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/img/example/example2.jpg, referer: http://setyourset.es/index.php
+[Fri Aug 14 13:39:36 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/img/example/example1.jpg, referer: http://setyourset.es/index.php
+[Fri Aug 14 13:39:36 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/img/example/example3.jpg, referer: http://setyourset.es/index.php
+[Fri Aug 14 13:44:30 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/setyourset/views/css, referer: http://setyourset.es/setyourset/views/dmgcalc.php
+[Fri Aug 14 13:44:30 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/setyourset/views/font-awesome, referer: http://setyourset.es/setyourset/views/dmgcalc.php
+[Fri Aug 14 13:44:30 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/setyourset/views/css, referer: http://setyourset.es/setyourset/views/dmgcalc.php
+[Fri Aug 14 13:44:30 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/setyourset/views/css, referer: http://setyourset.es/setyourset/views/dmgcalc.php
+[Fri Aug 14 13:44:30 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/setyourset/views/js, referer: http://setyourset.es/setyourset/views/dmgcalc.php
+[Fri Aug 14 13:44:30 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/setyourset/views/js, referer: http://setyourset.es/setyourset/views/dmgcalc.php
+[Fri Aug 14 13:44:30 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/setyourset/views/img, referer: http://setyourset.es/setyourset/views/dmgcalc.php
+[Fri Aug 14 13:45:48 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/setyourset/views/img, referer: http://setyourset.es/setyourset/views/dmgcalc.php
+[Fri Aug 14 13:46:21 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/setyourset/views/img, referer: http://setyourset.es/setyourset/views/dmgcalc.php
+[Fri Aug 14 13:47:54 2015] [error] [client 217.217.133.81] File does not exist: /var/www/html/ci/setyourset/views/img, referer: http://setyourset.es/setyourset/views/dmgcalc.php
+[Fri Aug 14 13:47:54 2015] [error] [client 217.217.133.81] File does not exist: /var/www/html/ci/favicon.ico, referer: http://setyourset.es/setyourset/views/dmgcalc.php
+[Fri Aug 14 13:48:16 2015] [error] [client 217.217.133.81] File does not exist: /var/www/html/ci/setyourset/views/about.html, referer: http://setyourset.es/setyourset/views/dmgcalc.php
+[Fri Aug 14 13:49:54 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/setyourset/views/img, referer: http://setyourset.es/setyourset/views/dmgcalc.php
+[Fri Aug 14 13:50:42 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/img, referer: http://setyourset.es/index.php
+[Fri Aug 14 13:50:45 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/setyourset/views/img, referer: http://setyourset.es/setyourset/views/dmgcalc.php
+[Fri Aug 14 13:51:01 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/setyourset/views/img, referer: http://setyourset.es/setyourset/views/dmgcalc.php
+[Fri Aug 14 14:02:43 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/img, referer: http://setyourset.es/index.php
+[Fri Aug 14 14:03:08 2015] [error] [client 217.217.133.81] File does not exist: /var/www/html/ci/setyourset/views/img, referer: http://setyourset.es/setyourset/views/dmgcalc.php
+[Fri Aug 14 14:03:44 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/img, referer: http://www.setyourset.es/
+[Fri Aug 14 14:04:29 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/setyourset/views/img, referer: http://setyourset.es/setyourset/views/dmgcalc.php
+[Fri Aug 14 15:20:21 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/setyourset/views/img, referer: http://setyourset.es/setyourset/views/dmgcalc.php
+[Fri Aug 14 15:22:12 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/setyourset/views/img, referer: http://setyourset.es/setyourset/views/dmgcalc.php
+[Fri Aug 14 15:22:42 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/index.html, referer: http://setyourset.es/index.php
+[Fri Aug 14 15:27:54 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/setyourset/views/img, referer: http://www.setyourset.es/setyourset/views/dmgcalc.php
+[Fri Aug 14 15:28:20 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/index.html, referer: http://www.setyourset.es/
+[Fri Aug 14 15:45:30 2015] [error] [client 217.217.171.18] File does not exist: /var/www/html/ci/index.html, referer: http://setyourset.es/
+[Fri Aug 14 15:45:30 2015] [error] [client 217.217.171.18] File does not exist: /var/www/html/ci/favicon.ico, referer: http://setyourset.es/index.html
+[Fri Aug 14 15:45:58 2015] [error] [client 217.217.171.18] File does not exist: /var/www/html/ci/setyourset/views/img, referer: http://setyourset.es/setyourset/views/dmgcalc.php
+[Fri Aug 14 18:39:51 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/favicon.ico, referer: http://www.setyourset.es/
+[Fri Aug 14 19:19:49 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/index.html, referer: http://setyourset.es/index.php
+[Fri Aug 14 19:27:12 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/setyourset/controllers/welcome, referer: http://setyourset.es/index.php
+[Fri Aug 14 19:27:25 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/setyourset/controllers/DMGcalculator, referer: http://setyourset.es/index.php
+[Fri Aug 14 20:33:35 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php
+[Fri Aug 14 20:33:41 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/dmgcalc
+[Fri Aug 14 20:36:31 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/dmgcalc
+[Fri Aug 14 20:38:35 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/dmgcalc
+[Fri Aug 14 21:15:31 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/setyourset/controllers/welcome, referer: http://setyourset.es/index.php/DMGcalculator/dmgcalc
+[Fri Aug 14 21:15:35 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/setyourset/controllers/welcome, referer: http://setyourset.es/index.php/DMGcalculator/dmgcalc
+[Fri Aug 14 21:17:07 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/dmgcalc
+[Fri Aug 14 21:17:08 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/welcome/index
+[Fri Aug 14 21:17:10 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/welcome/index
+[Fri Aug 14 21:17:18 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/dmgcalc
+[Fri Aug 14 21:17:26 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/dmgcalc?
+[Fri Aug 14 21:17:28 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/dmgcalc?
+[Fri Aug 14 21:17:31 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/welcome/index
+[Sat Aug 15 06:01:53 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/
+[Sat Aug 15 06:01:54 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/favicon.ico, referer: http://setyourset.es/
+[Sat Aug 15 06:01:57 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/welcome/index
+[Sat Aug 15 06:02:02 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/dmgcalc
+[Sat Aug 15 06:02:06 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/welcome/index
+[Sat Aug 15 06:55:07 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/
+[Sat Aug 15 06:55:09 2015] [error] [client 217.217.140.178] PHP Parse error:  syntax error, unexpected T_PUBLIC in /var/www/html/ci/setyourset/controllers/DMGcalculator.php on line 14, referer: http://setyourset.es/
+[Sat Aug 15 06:56:18 2015] [error] [client 217.217.140.178] PHP Parse error:  syntax error, unexpected ',' in /var/www/html/ci/setyourset/controllers/DMGcalculator.php on line 12, referer: http://setyourset.es/
+[Sat Aug 15 06:57:18 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/
+[Sat Aug 15 06:57:19 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/favicon.ico, referer: http://setyourset.es/
+[Sat Aug 15 06:57:21 2015] [error] [client 95.18.43.88] PHP Parse error:  syntax error, unexpected ',' in /var/www/html/ci/setyourset/controllers/DMGcalculator.php on line 12, referer: http://setyourset.es/
+[Sat Aug 15 06:58:14 2015] [error] [client 95.18.43.88] PHP Parse error:  syntax error, unexpected T_PUBLIC in /var/www/html/ci/setyourset/controllers/DMGcalculator.php on line 14, referer: http://setyourset.es/
+[Sat Aug 15 06:58:35 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/register
+[Sat Aug 15 07:13:19 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/register
+[Sat Aug 15 07:14:08 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/register
+[Sat Aug 15 07:16:09 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/register
+[Sat Aug 15 07:16:47 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/welcome/index
+[Sat Aug 15 07:17:32 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/register
+[Sat Aug 15 07:17:37 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/register
+[Sat Aug 15 07:17:38 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/favicon.ico, referer: http://setyourset.es/index.php/DMGcalculator/register
+[Sat Aug 15 07:17:48 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/register
+[Sat Aug 15 07:18:10 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/register
+[Sat Aug 15 07:19:32 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/welcome/index
+[Sat Aug 15 07:21:32 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/welcome/index
+[Sat Aug 15 07:21:55 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/register
+[Sat Aug 15 07:22:46 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/welcome/index
+[Sat Aug 15 07:22:48 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/dmgcalc
+[Sat Aug 15 07:23:31 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/welcome/index
+[Sat Aug 15 07:23:52 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/dmgcalc
+[Sat Aug 15 07:25:42 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/welcome/index
+[Sat Aug 15 07:25:44 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/dmgcalc
+[Sat Aug 15 07:28:37 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/dmgcalc
+[Sat Aug 15 07:28:54 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/dmgcalc
+[Sat Aug 15 07:29:09 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/dmgcalc
+[Sat Aug 15 07:30:06 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/welcome/index
+[Sat Aug 15 07:30:06 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/favicon.ico, referer: http://setyourset.es/index.php/welcome/index
+[Sat Aug 15 07:30:41 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/register
+[Sat Aug 15 07:31:12 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/register
+[Sat Aug 15 07:31:14 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/register
+[Sat Aug 15 07:31:15 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/register
+[Sat Aug 15 07:31:48 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/favicon.ico, referer: http://setyourset.es/
+[Sat Aug 15 07:31:48 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/favicon.ico, referer: http://setyourset.es/
+[Sat Aug 15 07:31:49 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/favicon.ico, referer: http://setyourset.es/
+[Sat Aug 15 07:33:22 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/register
+[Sat Aug 15 07:33:47 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/dmgcalc
+[Sat Aug 15 07:34:34 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/register
+[Sat Aug 15 07:34:36 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/register
+[Sat Aug 15 07:34:45 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/register
+[Sat Aug 15 07:35:02 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/register
+[Sat Aug 15 07:35:04 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/register
+[Sat Aug 15 07:35:13 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/register
+[Sat Aug 15 07:35:22 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/register
+[Sat Aug 15 07:35:30 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/register
+[Sat Aug 15 07:37:16 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/favicon.ico, referer: http://setyourset.es/
+[Sat Aug 15 07:37:17 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/favicon.ico, referer: http://setyourset.es/
+[Sat Aug 15 07:37:17 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/register
+[Sat Aug 15 07:37:36 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/register
+[Sat Aug 15 07:37:37 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/register
+[Sat Aug 15 07:38:25 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/register
+[Sat Aug 15 07:39:06 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/favicon.ico, referer: http://www.setyourset.es/
+[Sat Aug 15 07:40:08 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/register
+[Sat Aug 15 07:40:38 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/welcome/index
+[Sat Aug 15 07:40:42 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/welcome/index
+[Sat Aug 15 07:41:00 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/welcome/index
+[Sat Aug 15 07:41:08 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/register
+[Sat Aug 15 07:41:10 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/welcome/index
+[Sat Aug 15 07:41:57 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/welcome/index
+[Sat Aug 15 07:42:03 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/welcome/index
+[Sat Aug 15 07:42:13 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/welcome/index
+[Sat Aug 15 07:42:19 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/welcome/index
+[Sat Aug 15 07:43:13 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/welcome/index
+[Sat Aug 15 07:43:19 2015] [error] [client 95.18.43.88] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /var/www/html/ci/setyourset/views/index.php on line 4, referer: http://setyourset.es/index.php/DMGcalculator/register
+[Sat Aug 15 07:43:30 2015] [error] [client 95.18.43.88] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /var/www/html/ci/setyourset/views/index.php on line 4, referer: http://setyourset.es/index.php/DMGcalculator/register
+[Sat Aug 15 07:43:36 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/welcome/index
+[Sat Aug 15 07:43:53 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/welcome/index
+[Sat Aug 15 07:43:58 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/welcome/index
+[Sat Aug 15 07:43:59 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/welcome/index
+[Sat Aug 15 07:44:42 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/welcome/index
+[Sat Aug 15 07:44:49 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/welcome/index
+[Sat Aug 15 07:45:04 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/welcome/index
+[Sat Aug 15 07:45:09 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/welcome/index
+[Sat Aug 15 07:45:12 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/welcome/index
+[Sat Aug 15 07:45:42 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/welcome/index
+[Sat Aug 15 07:45:46 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/register
+[Sat Aug 15 07:45:50 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/dmgcalc
+[Sat Aug 15 07:46:25 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/pages/index
+[Sat Aug 15 07:46:31 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/
+[Sat Aug 15 07:46:53 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/
+[Sat Aug 15 07:48:42 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/pages
+[Sat Aug 15 07:48:56 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/pages
+[Sat Aug 15 07:49:15 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/
+[Sat Aug 15 07:49:40 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/favicon.ico, referer: http://setyourset.es/index.php/pages/faq
+[Sat Aug 15 07:49:40 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/favicon.ico, referer: http://setyourset.es/index.php/pages/faq
+[Sat Aug 15 07:49:45 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/pages/view/faq
+[Sat Aug 15 07:49:58 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/pages
+[Sat Aug 15 07:50:04 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/pages
+[Sat Aug 15 07:50:11 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/pages
+[Sat Aug 15 07:50:24 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/welcome/index
+[Sat Aug 15 07:50:31 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/pages/view/faq
+[Sat Aug 15 07:51:45 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/pages/view/faq.php
+[Sat Aug 15 07:51:51 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/welcome/index
+[Sat Aug 15 07:52:51 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/welcome/index
+[Sat Aug 15 07:55:49 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/welcome/index
+[Sat Aug 15 07:55:50 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/pages/view/faq
+[Sat Aug 15 07:56:13 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/welcome/index
+[Sat Aug 15 07:56:17 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/welcome
+[Sat Aug 15 07:56:19 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/pages/view/faq
+[Sat Aug 15 07:56:19 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/welcome
+[Sat Aug 15 07:56:27 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/dmgcalc
+[Sat Aug 15 07:56:29 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/register
+[Sat Aug 15 07:56:59 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/welcome/index
+[Sat Aug 15 07:57:01 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/welcome/index
+[Sat Aug 15 07:57:05 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/
+[Sat Aug 15 08:01:31 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/welcome/index
+[Sat Aug 15 08:01:38 2015] [error] [client 217.217.140.178] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/register
+[Sat Aug 15 08:02:35 2015] [error] [client 95.18.43.88] script '/var/www/html/ci/about.php' not found or unable to stat, referer: http://setyourset.es/
+[Sat Aug 15 08:02:38 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/welcome/index
+[Sat Aug 15 08:04:58 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/
+[Sat Aug 15 08:04:59 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/welcome/index
+[Sat Aug 15 08:05:03 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/welcome
+[Sat Aug 15 08:05:09 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/welcome/index
+[Sat Aug 15 08:05:22 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/welcome/index
+[Sat Aug 15 08:05:25 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/DMGcalculator/register
+[Sat Aug 15 08:05:29 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/welcome/index
+[Sat Aug 15 08:09:20 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/welcome/index
+[Sat Aug 15 08:09:21 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/welcome/index
+[Sat Aug 15 08:09:24 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/
+[Sat Aug 15 08:09:26 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/assets/css/font-awesome.min.css, referer: http://setyourset.es/index.php/welcome/index
+[Sat Aug 15 08:09:29 2015] [error] [client 95.18.43.88] File does not exist: /var/www/html/ci/welcome
