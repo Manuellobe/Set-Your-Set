@@ -117,7 +117,7 @@
                     <p>You can access to this feature just clicking in this button, don't forget to be logged in</p>
                 </div>
                 <div class="col-md-4">
-                    <a class="btn btn-lg btn-default btn-block" href="<?php echo base_url() . 'index.php/DMGcalculator/dmgcalc';?>">Dmg Calculator</a>
+                    <a class="btn btn-lg btn-default btn-block" href="<?php echo base_url() . 'index.php/functions/dmgcalc';?>">Dmg Calculator</a>
                 </div>
             </div>
         </div>

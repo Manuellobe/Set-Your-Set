@@ -3,10 +3,18 @@
 	background: rgba(255, 255, 255, 0.5);
 }
 
-.dmgCalcForm > div{
-	background: rgba(200, 54, 54, 0.5);
+
+.registerForm {
+	border: 1px solid black;
+	background: rgba(255, 255, 255, 0.5);
 }
 
+.registerForm > div{
+	padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
 .copyright{
 	padding-right: 10px;
 }
