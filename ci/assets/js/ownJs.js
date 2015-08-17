@@ -5,19 +5,21 @@ $(document).ready(function(){
   $.ajax({
    type: "POST",
    url: "/user/login",
-   data: "Username="+username+"&Password="+password,
+   data: $("#form").serialize(),
    success: function(html){
-		
 		if(html=='true')
 			{
-			$('#myModal').modal('hide');
+				$('#myModal').modal('hide');
+				$(document).ajaxStop(function(){
+					window.location.reload();
+				});
 			}
 			else
 			{
-			$("#modal_header").html('<div class="alert alert-danger" role="alert">Wrong username or password</div><h4 class="modal-title" id="myModalLabel">Input your username and password</h4>');
+				$("#modal_header").html('<div class="alert alert-danger" role="alert">Wrong username or password</div><h4 class="modal-title" id="myModalLabel">Input your username and password</h4>');
 			}
 	},
-		beforeSend:function()
+	beforeSend:function()
 	{
 		$("#modal_header").html('<div class="alert alert-info" role="alert">Loading...</div><h4 class="modal-title" id="myModalLabel">Input your username and password</h4>');
    }
@@ -26,3 +28,6 @@ $(document).ready(function(){
   
  });
 });
+
+
+

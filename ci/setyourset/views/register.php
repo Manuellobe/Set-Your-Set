@@ -29,7 +29,7 @@
         <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
         <div class="row">
             <div class="col-md-8">
-                <form name="register" id="regForm" novalidate>
+                <form method="POST" name="register" id="regForm" novalidate>
 
                     <?php
                         if(isset($alreadyRegistered))

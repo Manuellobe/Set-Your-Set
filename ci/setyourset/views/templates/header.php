@@ -36,39 +36,39 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li>
 
-                        <a href="<?php echo base_url().'pages/view/about';?>">About</a>
+                        <a href="<?php echo base_url().'pages/view/about/';?>">About</a>
                     </li>
                     <li>
-                        <a href="<?php echo base_url().'pages/view/faq';?>">FAQ</a>
+                        <a href="<?php echo base_url().'pages/view/faq/';?>">FAQ</a>
                     </li>
                     <li>
-                        <a href="<?php echo base_url() . 'index.php/DMGcalculator/itemSet';?>">DMG Calculator</a>
+                        <a href="<?php echo base_url() . 'DMGcalculator/itemSet/';?>">DMG Calculator</a>
                     </li>
                     <?php
                     if(!isset($_SESSION['logged_in']) || !$_SESSION['logged_in']){
                         ?>
                         <li>
-                            <a href="#" data-toggle="modal" data-target="#myModal"> Sign-in</a>
-                            <!--<a href="<?php echo base_url().'user/login';?>"> Sign-in</a>-->
+                            <a href="#myModal" data-toggle="modal"> Sign-in</a>
+                            <!--<a href="<?php echo base_url().'user/login/';?>"> Sign-in</a>-->
                         </li>
                         <li>
-                            <a href="<?php echo base_url() . 'index.php/DMGcalculator/register';?>">Register</a>
+                            <a href="<?php echo base_url() . 'user/register/';?>">Register</a>
 
                         </li>
                         <?php 
                     } else {
                             ?>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <?=$user?> <b class="caret"></b></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <?=$_SESSION['Username']?> <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                             <li>
                                 <a href="#">My Item sets</a>
                             </li>
                             <li>
-                                <a href="userSettings.html">Settings</a>
+                                <a href="user/settings/">Settings</a>
                             </li>
                             <li>
-                                <a href="#">Sign-out</a>
+                                <a href="user/logout/">Sign-out</a>
                             </li>
                             </ul>
                         </li>                            
@@ -92,14 +92,14 @@
               <div class="modal-header" id="modal_header">
 				<h4 class="modal-title" id="myModalLabel">Input your username and password</h4>
               </div>
-              <div class="modal-body">
+              <div class="modal-body" id="modal_body">
                 <a> Username: </a>
                 <br>
-                <input type="text" class="form-control" id="username">
+                <input type="text" class="form-control" id="username" name="username">
                 <br>
                 <a> Password: </a>
                 <br>
-                <input type="password" class="form-control" id="password">
+                <input type="password" class="form-control" id="password" name="password">
                 <br>
               </div>
               <div class="modal-footer">

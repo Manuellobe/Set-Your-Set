@@ -1,7 +1,7 @@
 <?php
 
 class User extends CI_Controller {
-    funtion __contruct()
+    function __contruct()
     {
         parent::__contruct();
     }
@@ -9,19 +9,20 @@ class User extends CI_Controller {
     {
         if (!$this->input->post()){
             $this->load->helper(array('form'));
-            $this->load->view('register');
+            $this->load->view('login');
             return;
         }
 
         $this->load->library('form_validation');
-        $this->form_validation->set_rules('username', 'Username', 'trim|required|xss_clean');
-        $this->form_validation->set_rules('password', 'Password', 'trim|required|xss_clean|callback_authenticate');
+        $this->form_validation->set_rules('username', 'username', 'trim|required|xss_clean');
+        $this->form_validation->set_rules('password', 'password', 'trim|required|xss_clean|callback_authenticate');
+		
         if($this->form_validation->run() == FALSE)
         {
 
             //$this->load->view('templates/header',$data);
 			//$this->load->view('login', $data);
-			echo 'false';
+			echo 'false'.validation_errors();
         }
         else
         {
@@ -31,40 +32,61 @@ class User extends CI_Controller {
         }
     }
 
-    private function authenticate($password)
+    public function authenticate($password)
     {
+		$this->load->model('User_model');
         $username = $this->input->post('username');
-        $user = $this->user->authenticate($username, $password);
-        if($user)
-        {
-            $this->_set_session($user);
-            return TRUE;
-        }
-        $this->form_validation->set_message('authenticate','Invalid username or password');
-        return FALSE;
+        $user = $this->User_model->authenticate($username, $password);
+		
+		if(array_key_exists('success', $user->error))
+		{
+			$this->_set_session($user);
+			return TRUE;
+		}
+		if(array_key_exists('verification', $user->error)){
+			$this->form_validation->set_message('authenticate',
+				"This user hasn't been verified yet");
+		} else if(array_key_exists('pass', $user->error)){
+			$this->form_validation->set_message('authenticate',
+				"Wrong password for this user");
+		} else if(array_key_exists('user', $user->error)){
+			$this->form_validation->set_message('authenticate',
+				"Wrong username and/or password");
+		}
+		return FALSE;
+		
+        //if($user)
+        //{
+        //    $this->_set_session($user);
+        //    return TRUE;
+        //}
+        //$this->form_validation->set_message('authenticate','Invalid username or password');
+        //return FALSE;
     }
 
     private function _set_session($user)
     {
         $sess_array = array(
-            'id' => $user->id,
-            'username' => $user->username
+            'Id' => $user->id,
+            'Username' => $user->username,
+			'Privilege'=> $user->privilege,
+			'logged_in' => TRUE
         );
-        $this->session->set_userdata('logged_in', $sess_array);
+        $this->session->set_userdata($sess_array);
     }
 
 
-    public function newuser()
+    public function register()
     {
         $this->load->view('templates/header');
-
         if(!$this->input->post()){
             $this->load->helper(array('form'));
             $this->load->view('register');
             $this->load->view('templates/footer');
             return;
         }
-
+		$this->load->model('User_model');
+		$this->load->library('form_validation');
         $this->form_validation->set_rules('username', 'username',
                 'trim|required|xss_clean');
         $this->form_validation->set_rules('password', 'password',
@@ -96,6 +118,15 @@ class User extends CI_Controller {
         }
         $this->load->view('templates/footer');
     }
+	
+	function logout(){
+		$this->session->sess_destroy();
+		$this->session->set_userdata('logged_in', FALSE);
+		$data['title'] = ucfirst('');
+		$this->load->view('templates/header', $data);
+		$this->load->view('index', $data);
+		$this->load->view('templates/footer', $data);
+	}
 }
 
 ?>
