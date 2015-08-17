@@ -10,13 +10,13 @@
     <!-- /.container -->
 
     <!-- jQuery -->
-    <script src="assets/js/jquery.js"></script>
+    <script src="<?php echo base_url() . 'assets/js/jquery.js';?>"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="<?php echo base_url() . 'assets/js/bootstrap.min.js';?>"></script>
 	
 	<!-- Bootstrap Core JavaScript -->
-    <script src="assets/js/ownJs.js"></script>
+    <script src="<?php echo base_url() . 'assets/js/ownJs.js';?>"></script>
 
 </body>
 
