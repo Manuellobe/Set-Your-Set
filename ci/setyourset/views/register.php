@@ -30,38 +30,43 @@
         <div class="row">
             <div class="col-md-8">
                 <form name="register" id="regForm" novalidate>
+
+                    <?php
+                        if(isset($alreadyRegistered))
+                        {
+                            echo '<div class="alert alert-danger" role="alert">';
+                            echo $alreadyRegistered;
+                            echo '</div>';
+                        }
+                    ?>
+
                     <div class="control-group form-group">
                         <div class="controls">
-                            <label>Name (this will be your login user):</label>
-                            <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
+                            <input type="text" class="form-control" placeholder="Username" id="username" name="username" required>
                             <p class="help-block"></p>
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
-                            <label>Password:</label>
-                            <input type="password" class="form-control" id="pass" required data-validation-required-message="Please enter your password.">
+                            <input type="password" class="form-control" placeholder="Password" id="password" name="password" required>
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
-                            <label>Confirm password:</label>
-                            <input type="password" class="form-control" id="passAgain" required data-validation-required-message="Please confirm your password.">
+                            <input type="password" class="form-control" placeholder="Repeat password" id="rpassword" name="rpassword" required>
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
-                            <label>Email address:</label>
-                            <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+                            <input type="email" class="form-control" placeholder="e-mail" id="email" name="email" required>
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
-                            <label>Confirm email address:</label>
-                            <input type="email" class="form-control" id="emailAgain" required data-validation-required-message="Please confirm your email address.">
+                            <input type="email" class="form-control" placeholder="Repeat e-mail" id="remail" name="remail" required>
                         </div>
                     </div>
-                    <p> Clicking the register button means that you accept our terms </p>
+                    <input type="checkbox" value="1" name="conditions" required>I accept the web conditions.</br>
                     <div id="success"></div>
                     <!-- For success/fail messages -->
                     <button type="submit" class="btn btn-primary">Register</button>

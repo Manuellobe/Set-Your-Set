@@ -63,6 +63,24 @@ class User_model extends CI_Model {
 			return FALSE;
 		}
 	}
+
+	public function add_user(){
+		//$this->load->helper('string');
+		//$verifyKey=random_string('alnum',20);
+		$data = array(
+			'Username' => $this->input->post('username'),
+			'Email' => $this->input->post('email'),
+			'Password' => password_hash($this->input->post('password'), PASSWORD_BCRYPT),
+			'Privilege' => 2
+			//'verifyKey' => $verifyKey
+		);
+		if($this->db->insert('User', $data))
+			{
+				//$this->EmailModel->sendVerificatinEmail($this->input->post('email'), $verifyKey);
+				return TRUE;
+			}
+		return FALSE;
+	}
 	
 }
 
