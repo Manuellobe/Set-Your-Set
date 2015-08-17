@@ -3,7 +3,6 @@
 	background: rgba(255, 255, 255, 0.5);
 }
 
-
 .registerForm {
 	border: 1px solid black;
 	background: rgba(255, 255, 255, 0.5);
@@ -17,4 +16,10 @@
 }
 .copyright{
 	padding-right: 10px;
+}
+
+#add_err{
+}
+
+#add_info{
 }

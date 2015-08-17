@@ -48,7 +48,8 @@
                     if(!isset($_SESSION['logged_in']) || !$_SESSION['logged_in']){
                         ?>
                         <li>
-                            <a href="<?php echo base_url().'user/login';?>"> <!--data-toggle="modal" data-target="#myModal"--> Sign-in</a>
+                            <a href="#" data-toggle="modal" data-target="#myModal"> Sign-in</a>
+                            <!--<a href="<?php echo base_url().'user/login';?>"> Sign-in</a>-->
                         </li>
                         <li>
                             <a href="<?php echo base_url() . 'index.php/DMGcalculator/register';?>">Register</a>
@@ -88,9 +89,8 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
             <form name="logForm" id="form" novalidate>
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Input your username and password</h4>
+              <div class="modal-header" id="modal_header">
+				<h4 class="modal-title" id="myModalLabel">Input your username and password</h4>
               </div>
               <div class="modal-body">
                 <a> Username: </a>
@@ -104,7 +104,7 @@
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <button type="submit" class="btn btn-primary" value="login">Sign-in</button>
+                <button type="submit" class="btn btn-primary" value="login" id="login">Sign-in</button>
               </div>
             </form>
         </div>

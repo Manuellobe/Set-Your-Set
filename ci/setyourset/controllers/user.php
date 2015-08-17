@@ -18,14 +18,16 @@ class User extends CI_Controller {
         $this->form_validation->set_rules('password', 'Password', 'trim|required|xss_clean|callback_authenticate');
         if($this->form_validation->run() == FALSE)
         {
-            $this->load->view('templates/header');
-            $this->load->view('dmgcalc');
-            $this->load->view('templates/footer');
-            return;
+
+            //$this->load->view('templates/header',$data);
+			//$this->load->view('login', $data);
+			echo 'false';
         }
         else
         {
-            $this->load->view('dmgcalc');
+			//$this->load->view('templates/header',$data);
+            //$this->load->view('index', $data);
+			echo 'true';
         }
     }
 

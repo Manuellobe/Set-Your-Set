@@ -14,6 +14,9 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="assets/js/bootstrap.min.js"></script>
+	
+	<!-- Bootstrap Core JavaScript -->
+    <script src="assets/js/ownJs.js"></script>
 
 </body>
 
