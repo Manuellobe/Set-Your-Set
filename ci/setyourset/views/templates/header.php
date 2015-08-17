@@ -48,7 +48,7 @@
                     if(!isset($_SESSION['logged_in']) || !$_SESSION['logged_in']){
                         ?>
                         <li>
-                            <a href="#" data-toggle="modal" data-target="#myModal">Sign-in</a>
+                            <a href="<?php echo base_url().'user/login';?>"> <!--data-toggle="modal" data-target="#myModal"--> Sign-in</a>
                         </li>
                         <li>
                             <a href="<?php echo base_url() . 'index.php/DMGcalculator/register';?>">Register</a>
