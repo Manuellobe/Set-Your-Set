@@ -75,7 +75,7 @@ class User_model extends CI_Model {
         );
         if($this->db->insert('User', $data))
                 {
-                        //$this->EmailModel->sendVerificatinEmail($this->input->post('email'),$verifyKey);
+                        //$this->EmailModel->sendVerificatinEmail($this->input->post('email'),$verifyKey);  uyhki
                         return TRUE;
                 }
         return FALSE;
