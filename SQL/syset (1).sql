@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 17-08-2015 a las 11:45:12
+-- Tiempo de generación: 20-08-2015 a las 17:44:57
 -- Versión del servidor: 5.6.25
 -- Versión de PHP: 5.6.11
 
@@ -16,16 +16,13 @@ SET time_zone = "+00:00";
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8mb4 */;
 
---
--- Base de datos: `syset`
---
-
 -- --------------------------------------------------------
 
 --
 -- Estructura de tabla para la tabla `blockwithinitemset`
 --
 
+DROP TABLE IF EXISTS `blockwithinitemset`;
 CREATE TABLE IF NOT EXISTS `blockwithinitemset` (
   `Id_ItemSet` int(10) NOT NULL DEFAULT '0',
   `Id_Block` int(10) NOT NULL DEFAULT '0'
@@ -37,6 +34,7 @@ CREATE TABLE IF NOT EXISTS `blockwithinitemset` (
 -- Estructura de tabla para la tabla `bonusspellstats`
 --
 
+DROP TABLE IF EXISTS `bonusspellstats`;
 CREATE TABLE IF NOT EXISTS `bonusspellstats` (
   `SpellKey` varchar(32) NOT NULL DEFAULT '',
   `StatName` varchar(32) NOT NULL DEFAULT '',
@@ -49,8 +47,10 @@ CREATE TABLE IF NOT EXISTS `bonusspellstats` (
 -- Estructura de tabla para la tabla `bonusstats`
 --
 
+DROP TABLE IF EXISTS `bonusstats`;
 CREATE TABLE IF NOT EXISTS `bonusstats` (
-  `StatName` varchar(32) NOT NULL
+  `StatName` varchar(32) NOT NULL,
+  `Bonus` tinyint(1) NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -59,6 +59,7 @@ CREATE TABLE IF NOT EXISTS `bonusstats` (
 -- Estructura de tabla para la tabla `champion`
 --
 
+DROP TABLE IF EXISTS `champion`;
 CREATE TABLE IF NOT EXISTS `champion` (
   `Id` int(10) NOT NULL,
   `Name` varchar(32) NOT NULL,
@@ -89,26 +90,17 @@ CREATE TABLE IF NOT EXISTS `champion` (
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `championspell`
---
-
-CREATE TABLE IF NOT EXISTS `championspell` (
-  `Id_Champion` int(10) NOT NULL DEFAULT '0',
-  `SpellKey` varchar(32) NOT NULL DEFAULT ''
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
--- --------------------------------------------------------
-
---
 -- Estructura de tabla para la tabla `item`
 --
 
+DROP TABLE IF EXISTS `item`;
 CREATE TABLE IF NOT EXISTS `item` (
   `Id` int(10) NOT NULL,
   `Name` varchar(64) NOT NULL,
   `Description` text NOT NULL,
   `TotalGold` int(10) NOT NULL,
-  `BaseGold` int(10) NOT NULL
+  `BaseGold` int(10) NOT NULL,
+  `Image` varchar(32) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -117,6 +109,7 @@ CREATE TABLE IF NOT EXISTS `item` (
 -- Estructura de tabla para la tabla `itemblock`
 --
 
+DROP TABLE IF EXISTS `itemblock`;
 CREATE TABLE IF NOT EXISTS `itemblock` (
   `Id` int(10) NOT NULL,
   `Name` varchar(50) NOT NULL,
@@ -130,9 +123,23 @@ CREATE TABLE IF NOT EXISTS `itemblock` (
 -- --------------------------------------------------------
 
 --
+-- Estructura de tabla para la tabla `itemintoitem`
+--
+
+DROP TABLE IF EXISTS `itemintoitem`;
+CREATE TABLE IF NOT EXISTS `itemintoitem` (
+  `Id` int(11) NOT NULL,
+  `FromItem` int(10) NOT NULL,
+  `IntoItem` int(10) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
 -- Estructura de tabla para la tabla `itemset`
 --
 
+DROP TABLE IF EXISTS `itemset`;
 CREATE TABLE IF NOT EXISTS `itemset` (
   `Id` int(10) NOT NULL,
   `Name` varchar(128) NOT NULL,
@@ -147,6 +154,7 @@ CREATE TABLE IF NOT EXISTS `itemset` (
 -- Estructura de tabla para la tabla `itemsetbychampion`
 --
 
+DROP TABLE IF EXISTS `itemsetbychampion`;
 CREATE TABLE IF NOT EXISTS `itemsetbychampion` (
   `Id_Champion` int(10) NOT NULL DEFAULT '0',
   `Id_ItemSet` int(10) NOT NULL DEFAULT '0'
@@ -155,9 +163,23 @@ CREATE TABLE IF NOT EXISTS `itemsetbychampion` (
 -- --------------------------------------------------------
 
 --
+-- Estructura de tabla para la tabla `itemstat`
+--
+
+DROP TABLE IF EXISTS `itemstat`;
+CREATE TABLE IF NOT EXISTS `itemstat` (
+  `Id_Item` int(10) NOT NULL,
+  `StatName` varchar(32) NOT NULL,
+  `Value` double NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
 -- Estructura de tabla para la tabla `itemwithinblock`
 --
 
+DROP TABLE IF EXISTS `itemwithinblock`;
 CREATE TABLE IF NOT EXISTS `itemwithinblock` (
   `Id_Item` int(10) NOT NULL DEFAULT '0',
   `Id_ItemBlock` int(10) NOT NULL DEFAULT '0',
@@ -170,6 +192,7 @@ CREATE TABLE IF NOT EXISTS `itemwithinblock` (
 -- Estructura de tabla para la tabla `permalink`
 --
 
+DROP TABLE IF EXISTS `permalink`;
 CREATE TABLE IF NOT EXISTS `permalink` (
   `PermaKey` varchar(128) NOT NULL,
   `Id_ItemSet` int(10) NOT NULL
@@ -181,6 +204,7 @@ CREATE TABLE IF NOT EXISTS `permalink` (
 -- Estructura de tabla para la tabla `spell`
 --
 
+DROP TABLE IF EXISTS `spell`;
 CREATE TABLE IF NOT EXISTS `spell` (
   `SpellKey` varchar(32) NOT NULL,
   `Name` varchar(32) NOT NULL,
@@ -189,7 +213,10 @@ CREATE TABLE IF NOT EXISTS `spell` (
   `CostBurn` varchar(128) NOT NULL,
   `Resource` varchar(16) NOT NULL,
   `RangeBurn` varchar(128) NOT NULL,
-  `CooldownBurn` varchar(128) NOT NULL
+  `CooldownBurn` varchar(128) NOT NULL,
+  `MaxRank` int(11) NOT NULL DEFAULT '5',
+  `Image` varchar(64) NOT NULL,
+  `Id_Champion` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -198,6 +225,7 @@ CREATE TABLE IF NOT EXISTS `spell` (
 -- Estructura de tabla para la tabla `summoner`
 --
 
+DROP TABLE IF EXISTS `summoner`;
 CREATE TABLE IF NOT EXISTS `summoner` (
   `Id` int(11) NOT NULL,
   `Name` varchar(64) NOT NULL,
@@ -212,13 +240,14 @@ CREATE TABLE IF NOT EXISTS `summoner` (
 -- Estructura de tabla para la tabla `user`
 --
 
+DROP TABLE IF EXISTS `user`;
 CREATE TABLE IF NOT EXISTS `user` (
   `Id` int(11) NOT NULL,
   `Username` varchar(64) NOT NULL,
   `Email` varchar(128) NOT NULL,
   `Password` varchar(64) NOT NULL,
   `Privilege` int(11) NOT NULL DEFAULT '0'
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -226,6 +255,7 @@ CREATE TABLE IF NOT EXISTS `user` (
 -- Estructura de tabla para la tabla `userfavitemset`
 --
 
+DROP TABLE IF EXISTS `userfavitemset`;
 CREATE TABLE IF NOT EXISTS `userfavitemset` (
   `Id_User` int(11) NOT NULL DEFAULT '0',
   `Id_ItemSet` int(10) NOT NULL DEFAULT '0'
@@ -237,6 +267,7 @@ CREATE TABLE IF NOT EXISTS `userfavitemset` (
 -- Estructura de tabla para la tabla `userfavsumm`
 --
 
+DROP TABLE IF EXISTS `userfavsumm`;
 CREATE TABLE IF NOT EXISTS `userfavsumm` (
   `Id_User` int(11) NOT NULL,
   `Id_Summoner` int(11) NOT NULL
@@ -248,6 +279,7 @@ CREATE TABLE IF NOT EXISTS `userfavsumm` (
 -- Estructura de tabla para la tabla `userownitemset`
 --
 
+DROP TABLE IF EXISTS `userownitemset`;
 CREATE TABLE IF NOT EXISTS `userownitemset` (
   `Id_User` int(11) NOT NULL DEFAULT '0',
   `Id_ItemSet` int(10) NOT NULL DEFAULT '0'
@@ -262,7 +294,7 @@ CREATE TABLE IF NOT EXISTS `userownitemset` (
 --
 ALTER TABLE `blockwithinitemset`
   ADD PRIMARY KEY (`Id_ItemSet`,`Id_Block`),
-  ADD KEY `Id_Block` (`Id_Block`);
+  ADD KEY `blockwithinitemset_ibfk_2` (`Id_Block`);
 
 --
 -- Indices de la tabla `bonusspellstats`
@@ -275,7 +307,7 @@ ALTER TABLE `bonusspellstats`
 -- Indices de la tabla `bonusstats`
 --
 ALTER TABLE `bonusstats`
-  ADD PRIMARY KEY (`StatName`);
+  ADD PRIMARY KEY (`StatName`,`Bonus`);
 
 --
 -- Indices de la tabla `champion`
@@ -283,13 +315,6 @@ ALTER TABLE `bonusstats`
 ALTER TABLE `champion`
   ADD PRIMARY KEY (`Id`),
   ADD UNIQUE KEY `ChampionKey` (`ChampionKey`);
-
---
--- Indices de la tabla `championspell`
---
-ALTER TABLE `championspell`
-  ADD PRIMARY KEY (`Id_Champion`,`SpellKey`),
-  ADD KEY `SpellKey` (`SpellKey`);
 
 --
 -- Indices de la tabla `item`
@@ -304,6 +329,14 @@ ALTER TABLE `itemblock`
   ADD PRIMARY KEY (`Id`);
 
 --
+-- Indices de la tabla `itemintoitem`
+--
+ALTER TABLE `itemintoitem`
+  ADD PRIMARY KEY (`Id`),
+  ADD KEY `FromItem` (`FromItem`),
+  ADD KEY `IntoItem` (`IntoItem`);
+
+--
 -- Indices de la tabla `itemset`
 --
 ALTER TABLE `itemset`
@@ -315,6 +348,13 @@ ALTER TABLE `itemset`
 ALTER TABLE `itemsetbychampion`
   ADD PRIMARY KEY (`Id_Champion`,`Id_ItemSet`),
   ADD KEY `Id_ItemSet` (`Id_ItemSet`);
+
+--
+-- Indices de la tabla `itemstat`
+--
+ALTER TABLE `itemstat`
+  ADD PRIMARY KEY (`Id_Item`,`StatName`),
+  ADD KEY `ItemStatFK_Stat` (`StatName`);
 
 --
 -- Indices de la tabla `itemwithinblock`
@@ -334,7 +374,8 @@ ALTER TABLE `permalink`
 -- Indices de la tabla `spell`
 --
 ALTER TABLE `spell`
-  ADD PRIMARY KEY (`SpellKey`);
+  ADD PRIMARY KEY (`SpellKey`),
+  ADD KEY `Id_Champion` (`Id_Champion`);
 
 --
 -- Indices de la tabla `summoner`
@@ -381,6 +422,11 @@ ALTER TABLE `userownitemset`
 ALTER TABLE `itemblock`
   MODIFY `Id` int(10) NOT NULL AUTO_INCREMENT;
 --
+-- AUTO_INCREMENT de la tabla `itemintoitem`
+--
+ALTER TABLE `itemintoitem`
+  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT;
+--
 -- AUTO_INCREMENT de la tabla `itemset`
 --
 ALTER TABLE `itemset`
@@ -394,7 +440,7 @@ ALTER TABLE `summoner`
 -- AUTO_INCREMENT de la tabla `user`
 --
 ALTER TABLE `user`
-  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=2;
+  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT;
 --
 -- Restricciones para tablas volcadas
 --
@@ -403,8 +449,8 @@ ALTER TABLE `user`
 -- Filtros para la tabla `blockwithinitemset`
 --
 ALTER TABLE `blockwithinitemset`
-  ADD CONSTRAINT `blockwithinitemset_ibfk_1` FOREIGN KEY (`Id_ItemSet`) REFERENCES `itemset` (`Id`),
-  ADD CONSTRAINT `blockwithinitemset_ibfk_2` FOREIGN KEY (`Id_Block`) REFERENCES `itemblock` (`Id`);
+  ADD CONSTRAINT `blockwithinitemset_ibfk_1` FOREIGN KEY (`Id_ItemSet`) REFERENCES `itemset` (`Id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `blockwithinitemset_ibfk_2` FOREIGN KEY (`Id_Block`) REFERENCES `itemblock` (`Id`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Filtros para la tabla `bonusspellstats`
@@ -414,11 +460,11 @@ ALTER TABLE `bonusspellstats`
   ADD CONSTRAINT `bonusspellstats_ibfk_2` FOREIGN KEY (`StatName`) REFERENCES `bonusstats` (`StatName`);
 
 --
--- Filtros para la tabla `championspell`
+-- Filtros para la tabla `itemintoitem`
 --
-ALTER TABLE `championspell`
-  ADD CONSTRAINT `championspell_ibfk_1` FOREIGN KEY (`SpellKey`) REFERENCES `spell` (`SpellKey`),
-  ADD CONSTRAINT `championspell_ibfk_2` FOREIGN KEY (`Id_Champion`) REFERENCES `champion` (`Id`);
+ALTER TABLE `itemintoitem`
+  ADD CONSTRAINT `FKFromItem` FOREIGN KEY (`FromItem`) REFERENCES `item` (`Id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `FKIntoItem` FOREIGN KEY (`IntoItem`) REFERENCES `item` (`Id`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Filtros para la tabla `itemsetbychampion`
@@ -426,6 +472,13 @@ ALTER TABLE `championspell`
 ALTER TABLE `itemsetbychampion`
   ADD CONSTRAINT `itemsetbychampion_ibfk_1` FOREIGN KEY (`Id_ItemSet`) REFERENCES `itemset` (`Id`),
   ADD CONSTRAINT `itemsetbychampion_ibfk_2` FOREIGN KEY (`Id_Champion`) REFERENCES `champion` (`Id`);
+
+--
+-- Filtros para la tabla `itemstat`
+--
+ALTER TABLE `itemstat`
+  ADD CONSTRAINT `ItemStatFK_Item` FOREIGN KEY (`Id_Item`) REFERENCES `item` (`Id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `ItemStatFK_Stat` FOREIGN KEY (`StatName`) REFERENCES `bonusstats` (`StatName`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Filtros para la tabla `itemwithinblock`
@@ -439,6 +492,12 @@ ALTER TABLE `itemwithinblock`
 --
 ALTER TABLE `permalink`
   ADD CONSTRAINT `permalink_ibfk_1` FOREIGN KEY (`Id_ItemSet`) REFERENCES `itemset` (`Id`);
+
+--
+-- Filtros para la tabla `spell`
+--
+ALTER TABLE `spell`
+  ADD CONSTRAINT `IdChampionFK` FOREIGN KEY (`Id_Champion`) REFERENCES `champion` (`Id`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Filtros para la tabla `userfavitemset`
@@ -464,3 +523,50 @@ ALTER TABLE `userownitemset`
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+
+INSERT INTO `bonusstats` (`StatName`, `Bonus`) VALUES
+('FlatArmorMod', 0),
+('FlatAttackSpeedMod', 0),
+('FlatCritChanceMod', 0),
+('FlatCritDamageMod', 0),
+('FlatHPPoolMod', 0),
+('FlatHPRegenMod', 0),
+('FlatMagicDamageMod', 0),
+('FlatMovementSpeedMod', 0),
+('FlatMPPoolMod', 0),
+('FlatMPRegenMod', 0),
+('FlatPhysicalDamageMod', 0),
+('FlatSpellBlockMod', 0),
+('PercentArmorMod', 0),
+('PercentArmorMod', 1),
+('PercentAttackSpeedMod', 0),
+('PercentAttackSpeedMod', 1),
+('PercentBaseHPRegenMod', 0),
+('PercentBaseMPRegenMod', 0),
+('PercentCritChanceMod', 0),
+('PercentCritChanceMod', 1),
+('PercentCritDamageMod', 0),
+('PercentCritDamageMod', 1),
+('PercentDodgeMod', 0),
+('PercentDodgeMod', 1),
+('PercentHPPoolMod', 0),
+('PercentHPPoolMod', 1),
+('PercentHPRegenMod', 0),
+('PercentHPRegenMod', 1),
+('PercentLifeStealMod', 0),
+('PercentLifeStealMod', 1),
+('PercentMagicDamageMod', 0),
+('PercentMagicDamageMod', 1),
+('PercentMovementSpeedMod', 0),
+('PercentMovementSpeedMod', 1),
+('PercentMPPoolMod', 0),
+('PercentMPPoolMod', 1),
+('PercentMPRegenMod', 0),
+('PercentMPRegenMod', 1),
+('PercentPhysicalDamageMod', 0),
+('PercentPhysicalDamageMod', 1),
+('PercentSpellBlockMod', 0),
+('PercentSpellBlockMod', 1),
+('PercentSpellVampMod', 0),
+('PercentSpellVampMod', 1);
