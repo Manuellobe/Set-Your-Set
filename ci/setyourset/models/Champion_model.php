@@ -42,7 +42,6 @@ class Champion_model extends CI_Model {
 			}
 		} else {
 			$var = $this->db->update('champion',$data, "Id = ".$data['Id']);
-			$var = $var.'mod';
 			return $var;
 		}
 	}
@@ -160,6 +159,18 @@ class Champion_model extends CI_Model {
 		} else {
 			return FALSE;
 		}
+	}
+	public function getChampion($id = ''){
+		$this->db->select('*');
+		$this->db->from('champion');
+		if($id != ''){
+			$this->db->where('Id', $id);
+			$this->db->or_where('ChampionKey', $id);
+		}
+		$query = $this->db->get();
+		
+		return $query->result();
+		
 	}
 }
 
