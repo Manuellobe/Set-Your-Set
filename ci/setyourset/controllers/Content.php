@@ -290,4 +290,10 @@ class Content extends CI_Controller {
 	public function version(){
 		echo $this->version;
 	}
+	
+	public function test(){
+		$this->load->view('templates/header');
+		$this->load->view('itemseteditor');
+		$this->load->view('templates/footer');
+	}
 }
